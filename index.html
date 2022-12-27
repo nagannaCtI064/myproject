@@ -1,0 +1,97 @@
+<html>
+    <head>
+        <meta name="viewport"content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet"href="web.css">
+        <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+    </head>
+    <body>
+     
+     <div class="c1">
+       <nav>
+        
+        <ul>
+            <li><a href="web.html"target="_blank">Home</a></li>
+            <li><a href="reg.html"target="_blank">Registration</a></li>
+            <li><a href="web2.html"target="_blank">Places</a></li>
+            <li><a href="web3.html"target="_blank">Contact us</a></li>
+            <li><a href="web4.html"target="_blank">About us</a></li>
+        </ul>
+        <a href="reg.html"target="_blank"class="btn">Get it</a>
+       </nav>
+       <video width="100%"height="50%"loop muted autoplay="autoplay"class="vid1">
+        <source src="C:\Users\benny\Downloads\bgvideo2.mp4"type="video/mp4">
+      </video>
+       <div>
+        <h1 class="num1">Let's explore the world!</h1>
+        <p class="num2">Travel is an opportunity to read the world.  
+          On each page, you might find a new, taste, flavour, scent, vision or sound that will make your world a richer place. 
+          On each page, you might meet new people, form new relationships, find and discover new languages.
+           Of course, you will enjoy some ‘pages’ more than others – but even the parts you
+            don’t enjoy at the time may have a profound effect on you later in life
+        </p>
+        <h1 class="num3">Travellings over the world!</h1>
+        <ul type="disc">
+          <li class="num4">Great Wall of China.</li>
+          <li class="num4">Chichén Itzá El Castillo, a Toltec-style pyramid, Chichén Itzá.</li>
+          <li class="num4">Petra. the Khaznah.</li>
+          <li class="num4">Machu Picchu.</li>
+          <li class="num4">Christ the Redeemer.</li>
+          <li class="num4">Colosseum.</li>
+          <li class="num4">Taj Mahal.</li>
+        </ul>
+
+
+       </div>
+
+       <h1><marquee behavior="" direction="left"class="num5">THIS IS OUR PLACES</marquee></h1>
+       
+     </div>
+     <div class="container">
+    
+<div class="swiper">
+   
+    <div class="swiper-wrapper">
+    
+      <div class="swiper-slide"><img src="D:\visual studio\wonder1.jfif"></div>
+      <div class="swiper-slide"><img src="D:\visual studio\wonder2.jfif"></div>
+      <div class="swiper-slide"><img src="D:\visual studio\wonder3.jfif"></div>
+      <div class="swiper-slide"><img src="D:\visual studio\wonder4.jfif"></div>
+      <div class="swiper-slide"><img src="D:\visual studio\wonder5.jfif"></div>
+      <div class="swiper-slide"><img src="D:\visual studio\wonder11.jpg"></div>
+      <div class="swiper-slide"><img src="D:\visual studio\wonder8.webp"></div>
+    </div>
+   
+    <div class="swiper-pagination"></div>
+  
+   
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
+
+     </div>
+     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+     <script>
+        const swiper = new Swiper('.swiper', {
+          autoplay:{
+            delay:3000,
+            disableOnInteraction:false,
+          },
+
+  loop: true,
+
+ 
+  pagination: {
+    el: '.swiper-pagination',
+    clickable:true,
+  },
+
+ 
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+});
+     </script>
+    </body>
+</html>
